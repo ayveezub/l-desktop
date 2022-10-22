@@ -1,0 +1,9 @@
+configuration {
+drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
+
+sort: true;
+sorting-method: "fzf";
+case-sensitive: false;
+matching: "fuzzy";
+}
+@theme "current-theme.rasi"

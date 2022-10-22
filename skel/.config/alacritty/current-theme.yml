@@ -1,0 +1,68 @@
+window:
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 10
+    y: 10
+
+  # Spread additional padding evenly around the terminal content.
+  #dynamic_padding: false
+
+  # Background opacity
+  #
+  # Window opacity as a floating point number from `0.0` to `1.0`.
+  # The value `0.0` is completely transparent and `1.0` is opaque.
+  opacity: 1.0
+
+# Colors (Breeze Light Customized)
+colors:
+  # Default colors
+  primary:
+    background: '#eff0f1'
+    foreground: '#383a42'
+
+    # Bright and dim foreground colors
+    dim_foreground: '#44424c'
+    bright_foreground: '#1c1a24'
+
+  # Normal colors
+  normal:
+    black:   '#383a42'
+    red:     '#e4564a'
+    green:   '#50a050'
+    yellow:  '#d7ba00'
+    blue:    '#0070d4'
+    magenta: '#a626a4'
+    cyan:    '#0ac6cc'
+    white:   '#e6e6e6'
+
+  # Bright colors
+  bright:
+    black:   '#1c1a24'
+    red:     '#f83636'
+    green:   '#50c850'
+    yellow:  '#f5ff02'
+    blue:    '#00aaf5'
+    magenta: '#ba0ee4'
+    cyan:    '#01ffff'
+    white:   '#fafafa'
+
+  # Dim colors
+  dim:
+    black:   '#44424c'
+    red:     '#c6605e'
+    green:   '#648c64'
+    yellow:  '#ae9802'
+    blue:    '#1484c0'
+    magenta: '#885488'
+    cyan:    '#1eaaa0'
+    white:   '#e6e6e6'
+
+  # Transparent cell backgrounds
+  #
+  # Whether or not `window.opacity` applies to all cell backgrounds or only to
+  # the default background. When set to `true` all cells will be transparent
+  # regardless of their background color.
+  #transparent_background_colors: false
